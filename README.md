@@ -5,14 +5,15 @@ A Hands-on Lab for Configuring and Restoring Virtual Machine Backups in Azure
 This project demonstrates how to configure Azure Backup to protect Virtual Machines (VMs) and restore them from recovery points to ensure business continuity. The lab includes setting up a Recovery Services Vault, configuring backup policies, performing VM backups, and testing restored VM functionality.
 
 ---
-# Table of Contents
-1. [Project Objectives](#project-objectives)
-2. [Steps Implemented](#steps-implemented)
-3. [Screenshots](#screenshots)
-4. [Tools Used](#tools-used)
-5. [Useful Links](#useful-links)
-6. [License](#license)
-7. [Contributions](#contributions)
+
+## 📖 Table of Contents
+1. [🛠️ Project Objectives](#-project-objectives)
+2. [⚙️ Steps Implemented](#-steps-implemented)
+3. [🖼️ Screenshots](#️-screenshots)
+4. [🛠️ Tools Used](#️-tools-used)
+5. [🌐 Useful Links](#-useful-links)
+6. [📜 License](#-license)
+7. [🤝 Contributions](#-contributions)
 
 
 
@@ -39,23 +40,28 @@ This project demonstrates how to configure Azure Backup to protect Virtual Machi
 ---
 
 ## ⚙️ Steps Implemented
-1. Create a Resource Group
-  - Name: BackupLabRG
-  - Region: West Europe
-2. Create a Storage Account
-  - Type: Standard
-  - Name: backupstorageaccttest
-3. Set Up a Recovery Services Vault
-  - Name: BackupVault
-  - Associated Resource Group: BackupLabRG
-4. Configure Backup Policy
-  - Frequency: Daily backup at 11:00 PM.
-  - Retention: 180 days.
-5. Backup Virtual Machines
-  - VMs: VM1-Backup, VM2-Backup
-6. Restore a Virtual Machine
-  - Type: Create a new VM.
-  - Restored VM name: VM2-Restored.
+1. **Create a Resource Group**  
+   - Name: `BackupLabRG`  
+   - Region: West Europe
+
+2. **Create a Storage Account**  
+   - Type: Standard  
+   - Name: `backupstorageaccttest`
+
+3. **Set Up a Recovery Services Vault**  
+   - Name: `BackupVault`  
+   - Associated Resource Group: `BackupLabRG`
+
+4. **Configure Backup Policy**  
+   - Frequency: Daily backup at 11:00 PM  
+   - Retention: 180 days
+
+5. **Backup Virtual Machines**  
+   - VMs: `VM1-Backup`, `VM2-Backup`
+
+6. **Restore a Virtual Machine**  
+   - Type: Create a new VM  
+   - Restored VM name: `VM2-Restored`
 
 ---
 
@@ -63,45 +69,57 @@ This project demonstrates how to configure Azure Backup to protect Virtual Machi
 
 Below are the screenshots that illustrate the steps:
 
-1. **Backup Items Overview**
-   ![Backup Items Overview](images/backup-items.png)
+1. **Backup Items Overview**  
+   ![Backup Items Overview](images/backup-items.png)  
+   *Overview of backup items configured in the Recovery Services Vault.*
 
-2. **Trigger Backup Now**
-   ![Trigger Backup Now](images/backup-now.png)
+2. **Trigger Backup Now**  
+   ![Trigger Backup Now](images/backup-now.png)  
+   *Initiating a manual backup operation for the VM.*
 
-3. **Backup Policy Creation**
-   ![Backup Policy Creation](images/backup-policy-creation-final.png)
+3. **Backup Policy Creation**  
+   ![Backup Policy Creation](images/backup-policy-creation-final.png)  
+   *Creating a custom backup policy with defined retention and frequency.*
 
-4. **Recovery Vault Creation**
-   ![Recovery Vault Creation](images/recovery-vault-creation.png)
+4. **Recovery Vault Creation**  
+   ![Recovery Vault Creation](images/recovery-vault-creation.png)  
+   *Configuring the Recovery Services Vault.*
 
-5. **Resource Group Creation**
-   ![Resource Group Creation](images/resource-group-creation.png)
+5. **Resource Group Creation**  
+   ![Resource Group Creation](images/resource-group-creation.png)  
+   *Resource group used to organize Azure resources.*
 
-6. **Restore Configuration**
-   ![Restore Configuration](images/restore-configuration.png)
+6. **Restore Configuration**  
+   ![Restore Configuration](images/restore-configuration.png)  
+   *Configuring restoration parameters for the VM.*
 
-7. **Restored VM Overview**
-   ![Restored VM Overview](images/restored-vm-overview.png)
+7. **Restored VM Overview**  
+   ![Restored VM Overview](images/restored-vm-overview.png)  
+   *Overview of the VM after being restored from a backup.*
 
-8. **Restore Job Progress**
-   ![Restore Job Progress](images/restore-job-progress.png)
+8. **Restore Job Progress**  
+   ![Restore Job Progress](images/restore-job-progress.png)  
+   *Monitoring the progress of the restoration process.*
 
-9. **Select VMs for Backup**
-   ![Select VMs for Backup](images/select-vms-backup.png)
+9. **Select VMs for Backup**  
+   ![Select VMs for Backup](images/select-vms-backup.png)  
+   *Selecting VMs to include in the backup policy.*
 
-10. **Storage Account Creation**
-    ![Storage Account Creation](images/storage-account-creation.png)
+10. **Storage Account Creation**  
+    ![Storage Account Creation](images/storage-account-creation.png)  
+    *Storage account used for additional configurations.*
 
-11. **Restored VM with Public IP**
-    ![VM2 Restored Overview with Public IP](images/vm2-restored-overview-with-public-ip.png)
+11. **Restored VM with Public IP**  
+    ![VM2 Restored Overview with Public IP](images/vm2-restored-overview-with-public-ip.png)  
+    *Verification of the restored VM's public IP address.*
 
-12. **SSH Login to Restored VM**
-    ![SSH Login to Restored VM](images/vm2-restored-ssh-login.png)
+12. **SSH Login to Restored VM**  
+    ![SSH Login to Restored VM](images/vm2-restored-ssh-login.png)  
+    *Successful SSH connection to the restored VM.*
 
-13. **VMs Overview**
-    ![VMs Overview](images/vms-overview.png)
-
+13. **VMs Overview**  
+    ![VMs Overview](images/vms-overview.png)  
+    *Overview of all VMs configured in the resource group.*
 ---
 
 ## 🛠️ Tools Used
