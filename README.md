@@ -1,23 +1,24 @@
 # Azure Backup and Recovery Lab
 ---
-A Hands-on Lab for Configuring and Restoring Virtual Machine Backups in Azure
+**A Hands-on Lab for Configuring and Restoring Virtual Machine Backups in Azure**
 ---
+
 This project demonstrates how to configure Azure Backup to protect Virtual Machines (VMs) and restore them from recovery points to ensure business continuity. The lab includes setting up a Recovery Services Vault, configuring backup policies, performing VM backups, and testing restored VM functionality.
 
 ---
 
-## 📖 Table of Contents
-1. [🛠️ Project Objectives](#project-objectives)
-2. [⚙️ Steps Implemented](#steps-implemented)
-3. [🖼️ Screenshots](#screenshots)
-4. [🛠️ Tools Used](#tools-used)
-5. [🌐 Useful Links](#useful-links)
-6. [📜 License](#license)
-7. [🤝 Contributions](#contributions)
+## Table of Contents
+1. [Project Objectives](#project-objectives)
+2. [Steps Implemented](#steps-implemented)
+3. [Screenshots](#screenshots)
+4. [Tools Used](#tools-used)
+5. [Useful Links](#useful-links)
+6. [License](#license)
+7. [Contributions](#contributions)
 
 ---
 
-## 🛠️ Project Objectives
+## Project Objectives
 
 - **Set up a Recovery Services Vault**  
   Create and configure a Recovery Services Vault to centrally manage VM backups.
@@ -34,12 +35,9 @@ This project demonstrates how to configure Azure Backup to protect Virtual Machi
 - **Test Connectivity and Functionality**  
   Validate the restored VMs by testing network connectivity and ensuring application functionality.
 
-
-
-
 ---
 
-## ⚙️ Steps Implemented
+## Steps Implemented
 1. **Create a Resource Group**  
    - Name: `BackupLabRG`  
    - Region: West Europe
@@ -65,7 +63,7 @@ This project demonstrates how to configure Azure Backup to protect Virtual Machi
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 Below are the screenshots that illustrate the steps:
 
@@ -120,43 +118,42 @@ Below are the screenshots that illustrate the steps:
 13. **VMs Overview**  
     ![VMs Overview](images/vms-overview.png)  
     *Overview of all VMs configured in the resource group.*
+
 ---
 
-## 🛠️ Tools Used
-  - Azure Portal: For VM backup and recovery configuration.
-  - SSH: For connecting to restored VMs.
-  - PowerShell: For command-line operations.
+## Tools Used
+- **Azure Portal**: For VM backup and recovery configuration.  
+- **SSH**: For connecting to restored VMs.  
+- **PowerShell**: For command-line operations.
 
-## 🌐 Useful Links
+---
 
-- [📖 Azure Backup Documentation](https://learn.microsoft.com/en-us/azure/backup/)  
+## Useful Links
+
+- [Azure Backup Documentation](https://learn.microsoft.com/en-us/azure/backup/)  
   Comprehensive guide to configuring and using Azure Backup.
 
-- [📂 Azure Recovery Services Vault Documentation](https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)  
+- [Azure Recovery Services Vault Documentation](https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)  
   Details about Recovery Services Vaults and their capabilities.
 
-- [📦 Azure Storage Account Overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)  
+- [Azure Storage Account Overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)  
   Learn about Azure Storage Accounts and their types.
 
-- [🔐 SSH Basics](https://www.ssh.com/academy/ssh)  
+- [SSH Basics](https://www.ssh.com/academy/ssh)  
   A beginner's guide to secure remote access using SSH.
 
+---
 
-
-
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](./LICENSE).  
 See the LICENSE file for detailed terms and conditions.
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions are welcome!  
 If you have suggestions for improvements or additional use cases, feel free to [fork this repository](https://github.com/dinAlexDu/Azure-Backup-and-Recovery-Lab) and submit a pull request.  
 
 Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) when contributing to this project.
-
-
-
