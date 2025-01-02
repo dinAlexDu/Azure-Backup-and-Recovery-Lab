@@ -1,32 +1,44 @@
 # Azure Backup and Recovery Lab
+---
+A Hands-on Lab for Configuring and Restoring Virtual Machine Backups in Azure
+---
+This project demonstrates how to configure Azure Backup to protect Virtual Machines (VMs) and restore them from recovery points to ensure business continuity. The lab includes setting up a Recovery Services Vault, configuring backup policies, performing VM backups, and testing restored VM functionality.
 
-This repository contains a hands-on lab for configuring and recovering backups using **Azure Backup**.  
-The goal of this lab is to demonstrate how to protect virtual machines in Azure using robust backup and recovery strategies. It walks through the process of setting up a **Recovery Services Vault**, configuring **Backup Policies**, performing VM backups, and restoring VMs from recovery points.
+---
+# Table of Contents
+1. [Project Objectives](#project-objectives)
+2. [Steps Implemented](#steps-implemented)
+3. [Screenshots](#screenshots)
+4. [Tools Used](#tools-used)
+5. [Useful Links](#useful-links)
+6. [License](#license)
+7. [Contributions](#contributions)
+
+
+
+## 🛠️ Project Objectives
+
+- **Set up a Recovery Services Vault**  
+  Create and configure a Recovery Services Vault to centrally manage VM backups.
+
+- **Create Backup Policies**  
+  Define automated backup policies for virtual machines, including frequency and retention periods.
+
+- **Perform Manual and Scheduled Backups**  
+  Execute both on-demand and scheduled backups for Azure virtual machines.
+
+- **Restore Virtual Machines**  
+  Recover VMs from previously created recovery points using the Azure Portal.
+
+- **Test Connectivity and Functionality**  
+  Validate the restored VMs by testing network connectivity and ensuring application functionality.
+
+
+
 
 ---
 
-
-## 🛠️ Objectives
-
-- **Learn how to configure Azure Backup for virtual machines.**
-- **Protect virtual machines with customized backup policies.**
-- **Restore virtual machines from recovery points to ensure business continuity.**
-- **Test connectivity and validate VM functionality after restoration.**
-
----
-
-## 📂 Repository Structure
-
-```plaintext
-Azure-Backup-and-Recovery-Lab/
-├── images/              # Screenshots used in the documentation
-├── README.md            # This file
-└── ...
-```
-
----
-
-## ⚙️ Configuration Steps
+## ⚙️ Steps Implemented
 1. Create a Resource Group
   - Name: BackupLabRG
   - Region: West Europe
@@ -97,9 +109,36 @@ Below are the screenshots that illustrate the steps:
   - SSH: For connecting to restored VMs.
   - PowerShell: For command-line operations.
 
+## 🌐 Useful Links
+
+- [📖 Azure Backup Documentation](https://learn.microsoft.com/en-us/azure/backup/)  
+  Comprehensive guide to configuring and using Azure Backup.
+
+- [📂 Azure Recovery Services Vault Documentation](https://learn.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)  
+  Details about Recovery Services Vaults and their capabilities.
+
+- [📦 Azure Storage Account Overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)  
+  Learn about Azure Storage Accounts and their types.
+
+- [🔐 SSH Basics](https://www.ssh.com/academy/ssh)  
+  A beginner's guide to secure remote access using SSH.
+
+
+
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+See the LICENSE file for detailed terms and conditions.
+
 ---
 
-🚀 Next Steps
-Explore more advanced scenarios, such as cross-region restore and backup encryption.
-Test disaster recovery scenarios using Azure Site Recovery.
-Learn how to automate backups using Azure PowerShell or Azure CLI.
+## 🤝 Contributions
+
+Contributions are welcome!  
+If you have suggestions for improvements or additional use cases, feel free to [fork this repository](https://github.com/dinAlexDu/Azure-Backup-and-Recovery-Lab) and submit a pull request.  
+
+Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) when contributing to this project.
+
+
+
