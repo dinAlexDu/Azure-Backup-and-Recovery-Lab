@@ -7,13 +7,13 @@ This project demonstrates how to configure Azure Backup to protect Virtual Machi
 ---
 
 ## 📖 Table of Contents
-1. [🛠️ Project Objectives](#-project-objectives)
-2. [⚙️ Steps Implemented](#-steps-implemented)
-3. [🖼️ Screenshots](#️-screenshots)
-4. [🛠️ Tools Used](#️-tools-used)
-5. [🌐 Useful Links](#-useful-links)
-6. [📜 License](#-license)
-7. [🤝 Contributions](#-contributions)
+1. [🛠️ Project Objectives](#project-objectives)
+2. [⚙️ Steps Implemented](#steps-implemented)
+3. [🖼️ Screenshots](#screenshots)
+4. [🛠️ Tools Used](#tools-used)
+5. [🌐 Useful Links](#useful-links)
+6. [📜 License](#license)
+7. [🤝 Contributions](#contributions)
 
 
 
